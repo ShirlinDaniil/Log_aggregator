@@ -19,7 +19,7 @@ class Command(BaseCommand):
     help = 'Parse Apache logs and save to the database'
 
     def handle(self, *args, **kwargs):
-        log_dir = '/PycharmProjects/Log_aggregator'
+        log_dir = '/PycharmProjects/Log_aggregatopip freeze > requirements.txtr'
         for filename in os.listdir(log_dir):
             if filename.endswith('log'):
                 filepath = os.path.join(log_dir, filename)
